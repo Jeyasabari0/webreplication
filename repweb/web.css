@@ -1,3 +1,6 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .drpmn:hover .drpmnd{
    display: block; 
     color: aqua;
@@ -53,13 +56,62 @@
     justify-content: left;
     margin: 50px;
 }
-.card1{
-    width: 400px; 
-    height: 600px;
+.card1:hover{
+    box-shadow: 5px 5px 5px grey inset ;
 }
 .card1 h4{
     padding-bottom: 20px;
+    text-align: center;
+    font: bolder;
+    font-weight: 1000;
 }
 .card1 p{
     padding-bottom: 20px;
+    text-align: center;
+}
+.card1 a{
+    text-align: center;
+    text-decoration: none;
+    
+}
+.banner2{
+    background-attachment: fixed;
+    background-color:black;
+    text-align: center;
+    height:600px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.banner2 h1{
+   padding: 60px 50px 0px 50px ;
+    font-weight: 1000;
+}
+.banner2 p{
+    padding: 10px 50px 0px 50px ;
+    font-weight: 200;
+}
+.p3{
+    text-align: center;
+    padding: 10px;
+}
+.banner3{
+    background-attachment: fixed;
+    background-color:black;
+    text-align: center;
+    height:600px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 100px;
+    text-align: left;
+    cursor: pointer;
+}
+.qa a{
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+}
+.qa button{
+float: inline-end;
+cursor: pointer;
+color: white;
 }
